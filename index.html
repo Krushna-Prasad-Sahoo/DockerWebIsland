@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Docker Island</title>
+    </head>
+    <br />
+    <b>&#128073; ARTH-2020 &#128072;</b>
+
+<style>
+ body{
+         
+          font-size:30px;
+          margin:auto;
+          text-align:center;
+	  background-image: url(https://abstract-technology.com/media/sezione-about/docker.png/@@images/image.png);
+		  <!--  background-image: url(https//alphaville.github.io/optimization-engine/img/docker.gif); -->
+          background-repeat: repeat-y;
+	 background-color: #32a85d;
+    }
+    
+    #d{
+                font-weight: bold;
+                font-size: 30px;
+                text-align: center;
+                color: white;
+            }
+    #e{
+                font-weight: bold;
+                font-size: 20px;
+                text-align: center;
+                color: black;
+    }
+    input[type=text] {
+  width: 45%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid black;
+  border-radius: 8px;
+}
+
+	.button {
+  background-color: #000000; 
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+	.button5 {border-radius: 9px;}
+    </style>
+
+    <br/> <br /> <br /> <br /><br />
+    <h3>&#128526; Docker Web Island &#128526; </h3>
+   
+
+  <script>
+    function lw()
+    {  
+        var i = document.getElementById("in1").value  
+        var xhr= new XMLHttpRequest();
+        xhr.open("GET","http://192.168.0.105/cgi-bin/p.py?x="+i,true);
+        xhr.send();
+        xhr.onload=function(){
+              var output=xhr.responseText;
+        document.getElementById("d1").innerHTML=output; 
+              }
+    }
+    </script>
+
+    <div id = "e" class=boxing>
+      [krushna@dockerIsland~]# &nbsp; <input id="in1" type="text"/>
+      <pre>
+  <button id="d2" onclick="lw()" class="button button5">Submit &#9193; </button> <br /> <br /> <br />  
+  <br /><div id="d1"> </div>
+      </pre>
+   </div>
+  </html>
