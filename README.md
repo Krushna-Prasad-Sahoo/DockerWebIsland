@@ -8,4 +8,4 @@ I have created a simple Web UI & hosted on Apache Web Server. But the interestin
 -> change the ip in index.html file<br>
 -> give ALL permission to docker user & apache user in /etc/sudoers file
 
-[Do give a watch the video where I have demonstrated all the mentioned implementations](https://www.linkedin.com/posts/krushna-prasad_connections-dockerwebisland-vimaldaga-activity-6840500062057992192-pCS8)
+Do give a watch the [video](https://www.linkedin.com/posts/krushna-prasad_connections-dockerwebisland-vimaldaga-activity-6840500062057992192-pCS8) where I have demonstrated all the mentioned implementations.
